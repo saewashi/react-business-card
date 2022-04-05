@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body {
+background-color: #1A1B21;   
+height: 100%;    
+margin: auto; 
+border: solid #1A1B21 15px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main {
+box-sizing: border-box;
+
+background-color: #23252C;
+height: 100%;  
+margin: auto;
+padding: 0;  
+width: 400px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img {
+width:400px;
+height:auto;
+display:flex;
+justify-content: center;
+align-items:center;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+h1, h5 {
+color: white; 
+text-align: center; 
+padding: 0px 30px;
+margin-top: 5px;  
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name {
+color: #fff;
+margin: 1.1rem;
+}
+
+
+p {
+color: white; 
+padding: 4px 20px;  
+font-size: larger;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.about {
+  display: flex;  
+  margin-top: 1.1em;
+  color: goldenrod;  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.interest {
+  display: flex;  
+  margin-top: 1.1em; 
+  color: goldenrod;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+display: flex;    
+justify-content: center;
+color: pink; 
+margin: 10px;   
+font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+a:link, a:visited {
+color: goldenrod;
+text-decoration: none;
+cursor: pointer;
+}
+
+button {
+background-color:  #1A1B21;  
+border: 5px solid  #1A1B21;
+margin: 1em; 
+color: #fff;
+border-radius: 10px;
+width: 6.4em;
+height: auto;
+font-weight: bold;
+}
+.social-buttons {
+display: grid;    
+grid-template-columns: 2fr 2fr 2fr;
+padding-left: 5.50rem;
+margin: auto;
+}
+
+footer {
+background-color: black;  
+box-sizing: border-box;
+width: 400px; 
+height: 100%;
+color: white;
+display: flex;
+justify-content: center;
+text-align: center; 
+border: solid black 10px;   
+}
+
+.icons {
+padding: 10px;
+font-size: 1.5rem;
+color: #fff;
 }
